@@ -119,6 +119,9 @@ header{
         padding-right: 0; 
         width: 100%;
     }
+    .banner-img img{
+        width: 100%;
+    }
     .banner-content{
         padding-left: 0;
         width: 100%;
