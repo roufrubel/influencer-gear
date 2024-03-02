@@ -79,14 +79,14 @@ header{
 }
 .banner-img{
     padding-right: 1rem;
-    width: 50%;    
-}
-.banner-img img{
-    width: 100%; 
+    width: 50%;   
     background-image: url('images/Circle-design.svg');  
     background-position: center; 
-    background-repeat: no-repeat; 
-    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner-img img{
+    width: 90%; 
+    text-align: center; 
 }
 
 
@@ -105,12 +105,15 @@ header{
         margin-left: .7rem;
     }
     .banner{
-        flex-direction: column;
+        flex-direction: column-reverse;
         padding: .5rem;
         margin-top: 1rem;
     }
     .banner-content h2{
         font-size: 1.9em;
+    }
+    .arrow-sign{
+        margin: 0 auto;
     }
     .banner-img{
         padding-right: 0; 
@@ -119,5 +122,6 @@ header{
     .banner-content{
         padding-left: 0;
         width: 100%;
+        text-align: center;
     }
 }
